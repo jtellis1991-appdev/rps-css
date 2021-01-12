@@ -6,42 +6,66 @@
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
   <link rel="stylesheet" href="my_styles.css" >
-
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div>
-    <a href="/rock">
-      Play Rock
-    </a>
-  </div>
+  <div class="container">
+    <div class="row mb-medium">
+      <div class="one-third">
+        <a class="button" href="/rock">
+          Play Rock
+        </a>
+      </div>
 
-  <div>
-    <a href="/paper">
-      Play Paper
-    </a>
-  </div>
+      <div class="one-third">
+        <a class="button" href="/paper">
+          Play Paper
+        </a>
+      </div>
 
-  <div>
-    <a href="/scissors">
-      Play Scissors
-    </a>
-  </div>
+      <div class="one-third">
+        <a class="button" href="/scissors">
+          Play Scissors
+        </a>
+      </div>
+    </div>
 
-  <h2>
-    We played rock!
-  </h2>
+    <div class="row mb-medium">
+      <div class="one-half">  
+        <div class="player-card centered">
+          <h2>
+            We played rock!
+          </h2>
+        </div>
+      </div>
 
-  <h2>
-    They played paper!
-  </h2>
+      <div class="one-half">  
+        <div class="computer-card centered">
+            <h2>
+            They played paper!
+          </h2>
+        </div>
+      </div> 
+    </div>
 
-  <h2>
-    We lost!
-  </h2>
+    <div class="row-center mb-medium">
+      <div class="two-thirds">
+        <div class="outcome-card centered">
+          <h2>
+            We lost!
+          </h2>
+        </div>
+      </div>  
+    </div>
 
-  <a href="/">
-    Rules
-  </a>
+    <div class="row-center mb-medium">
+      <div class="one-third centered">
+        <a class="button-rules" href="/">
+          Rules
+        </a>
+      </div>
+    </div>
+  </div>  
 </body>
 </html>

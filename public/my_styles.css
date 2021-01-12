@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  margin: 0;                /*  had default margin of 5 */
+  display: flex;
+  border: 50px grey solid;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  font-family: 'Raleway' , helvetica, sans;git
+  justify-content: center;
+  height: 100vh;           /*  to allow vertical centering of the content */
+}
+
+.button {
+  color: teal;
+  border: 1px teal solid;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  /* transition: background-color .3s linear; */
+}
+
+.button-rules {
+  color: rgb(47, 172, 172);
+  border: 1px rgb(47, 172, 172);
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  /* transition: background-color .3s linear; */
+}
+
+.button:hover,
+.button-rules:hover {
+  background-color: #ed6e2f;
+  color: white;
+}
+
+.computer-card {
+  border: thin red solid;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 960px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mb-medium {
+  margin-bottom: 10px;
+}
+
+.one-half {
+  width: 49%;
+}
+.one-third {
+  width: 32%;
+}
+
+.outcome-card {
+  border: thin red solid;
+  background-color: red;
+  color: white;
+}
+.player-card {
+  border: thin blue solid;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.two-thirds {
+  width: 66%
+}
